@@ -131,7 +131,7 @@ return (
  </div>
    <div className="box2">
 
-     <h1 className="warn">Korzinka</h1><img className="buybtn" src={buy} alt="korzinka" />
+     <img className="buybtn" src={buy} alt="korzinka" />
    {
     addqiymat?.map((item)=>{
   
