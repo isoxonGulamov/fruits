@@ -1,0 +1,62 @@
+.header__list{
+  display: flex;
+  max-width: 1000px;
+  justify-content: space-between;
+  margin: 0 auto;
+  list-style: none;
+}
+.eng{
+  font-size: 30px;
+}
+.usd{
+  font-size: 30px; 
+}
+.myprofile{
+  font-size: 30px;
+}
+.searchProduct{
+  font-size: 30px;
+  padding: 5px 10px;
+  max-width: 250px;
+  border-radius: 30px;
+}
+.logout{
+padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.header__box{
+  position: fixed;
+  width: 100%;
+  background-color: darkcyan;
+  padding: 60px 20px;
+  top: 0;
+  left: 0;
+  z-index: 23424;
+ margin-bottom: 70px;
+}
+.header__bottom{
+  margin-top: 200px;
+
+}
+.header__list-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title2{
+  cursor: pointer;
+ transition-property: all;
+ transition-duration: 1s;
+}
+.title2:hover{
+color: blue;
+background-color: bisque;
+  transition-duration: 1s;
+ border-radius: 10px;
+
+}

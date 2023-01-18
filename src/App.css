@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+}
+.container{
+  max-width: 1320px;
+  padding: 20px;
+margin: 0 auto;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fruit-img{
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+}
+.card-box{
+  width: 400px;
+  height: 600px;
+  border: 2px solid blue;
+  background-color: cadetblue;
+  padding: 40px 20px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.9s;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.card-box:hover{
+  transition-duration: 0.8s;
+  box-shadow: 10px 10px 10px 10px;
+  color: aqua;
+border-radius: 20px;
+
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1360px;
+  margin-top: 10px;
+}
+body{
+  background-color: darkblue;
+}
+.delete{
+  font-size: 20px;
+  padding: 15px 35px;
+  background-color: red;
+  transition-property: all;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.delete:hover{
+  background-color: cornsilk;
+  transition-duration: 0.8s;
+}
+.add{
+  font-size: 20px;
+  padding: 15px 35px;
+  background-color: blue;
+  transition-property: all;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.add:hover{
+  background-color: rgb(225, 188, 37);
+  transition-duration: 0.8s;
+}
+.box2{
+  position: absolute;
+  top: 15%;
+  left: -23%;
+}
+.megicbox{
+  position: relative;
+}
+.textname{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+}
+.textnarx{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
+  color: chartreuse;
+}
+
+
+.footer-list {
+  background: #BCDDFE;
+  display: flex;
+  align-items: center;
+
+}
+.footer{
+  background: #BCDDFE;
+}
+.footer-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color:black;
+  width: 391px;
+  padding-bottom: 31px;
+}
+
+.footer-sub-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: black;
+  width: 391px;
+  padding-bottom: 113px;
+
+}
+
+.footer-sub-img {
+  width: 130px;
+  padding-bottom: 21px;
+}
+
+.footer-title {
+  width: 92px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: black;
+}
+
+.footer-last-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: black;
+  display: block;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.footer-last-text:hover{
+  font-size: 25px;
+  color: rgb(25, 12, 12);
+  transition-duration: 1s;
+}
+.footer-item,
+.footer-block {
+  /* padding-bottom: 30px; */
+  /* padding-left: 2250px; */
+  margin: 0 auto;
+}
+
+.footer-item {
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+.footer-sub-img {
+  padding-top: 10px;
+}
+ul,ol{
+  list-style: none;
+}
+.warn{
+  color: chartreuse;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 250px;
+}
+.buybtn{
+  max-width: 100px;
+  height: 100px;
+}
