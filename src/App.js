@@ -105,7 +105,7 @@ for(let i of qiymat){
   if (i.id === id) {
     let produc = i
       
-      if (!addqiymat.find(el => el.id == produc.id)) {
+      if (!addqiymat.find(el => el.id === produc.id)) {
         setaddqiymat((addqiymat)=>{
           return [...addqiymat,i]
         })
@@ -117,18 +117,7 @@ for(let i of qiymat){
 }
 
 localStorage.setItem("products",JSON.stringify(addqiymat))
-// let produc = products.find(el => el.id == e.target.id)
-// let arr = JSON.parse(localStorage.getItem("products")) || []
-// if (!arr.find(el => el.id == produc.id)) {
-// arr.push(produc)
-// console.log(arr);
-// }else{
-// alert("avval qo'shilgan")
-// }
 
-
-
-// localStorage.setItem("products",JSON.stringify(arr))
 }
 return (
  <MainLayot>

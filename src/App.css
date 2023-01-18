@@ -175,6 +175,7 @@ body{
   display: block;
   transition-property: all;
   transition-duration: 1s;
+  cursor: pointer;
 }
 
 .footer-last-text:hover{

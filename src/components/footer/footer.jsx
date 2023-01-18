@@ -16,28 +16,28 @@ export const Footer = ()=>{
         </li>
         <li class="footer-block">
           <h3 class="footer-title">Company</h3>
-          <a class="footer-last-text" href="#">About</a>
-          <a class="footer-last-text" href="#">Tetimonials</a>
-          <a class="footer-last-text" href="#">Find a doctor</a>
-          <a class="footer-last-text" href="#">Apps</a>
+          <span class="footer-last-text" >About</span>
+          <span class="footer-last-text" >Tetimonials</span>
+          <span class="footer-last-text" >Find a doctor</span>
+          <span class="footer-last-text" >Apps</span>
         </li>
 
         <li class="footer-block">
           <h3 class="footer-title">Region</h3>
-          <a class="footer-last-text" href="#">Indonesia</a>
-          <a class="footer-last-text" href="#">Singapore</a>
-          <a class="footer-last-text" href="#">Hongkong</a>
-          <a class="footer-last-text" href="#">Canada</a>
+          <span class="footer-last-text" >Indonesia</span>
+          <span class="footer-last-text" >Singapore</span>
+          <span class="footer-last-text" >Hongkong</span>
+          <span class="footer-last-text" >Canada</span>
         </li>
 
         <li class="footer-block">
           <h3 class="footer-title">Help</h3>
-          <a class="footer-last-text" href="#">Help center</a>
-          <a class="footer-last-text" href="#">Contact support</a>
-          <a class="footer-last-text" href="#">Instructions</a>
-          <a class="footer-last-text" href="#">How it works</a>
+          <span class="footer-last-text" >Help center</span>
+          <span class="footer-last-text" >Contact support</span>
+          <span class="footer-last-text" >Instructions</span>
+          <span class="footer-last-text" >How it works</span>
 
-          <a class="dev" href="#"></a>
+  
         </li>
       </ul>
     </div>

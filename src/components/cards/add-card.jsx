@@ -2,7 +2,6 @@ import React from "react";
 import "./add.css"
 export const AddCart = ({name,price,id,deleteitem2})=>{
   const [qiymat,setqiymat] = React.useState(1)
-  const [umumiy,setumumiy] = React.useState(price)
   const plus = ()=>{
   setqiymat((qiymat)=>{
     return qiymat + 1
@@ -13,11 +12,11 @@ export const AddCart = ({name,price,id,deleteitem2})=>{
       return  qiymat - 1 
     })
   }
-  {
-    if(qiymat == 0){
+  
+    if(qiymat === 0){
       deleteitem2(id)
     }
-  }
+  
   let natija = qiymat*price
 
   return (
