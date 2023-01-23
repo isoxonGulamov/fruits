@@ -94,11 +94,14 @@ function App() {
   const [addqiymat,setaddqiymat] = React.useState([])
 const deleteitem = (id)=>{
 setqiymat((qiymat)=>qiymat.filter((item)=> item.id !== id))
+console.log(qiymat);
+/// useState componentlar qayta render bo'ladi shu sababan ham useStateda biror hodisa bo'lganda fuunksiya chaqirib ichiga setqiymat funksiya chaqirib shu  orqali qiymatni o'zgartirish mumkin.Bizda   bir hodisada setqiymatni chaqirganimizda masalan har onclick bo'lganda componentlar qayta render bo'ladi.Va biz setqiymatda funksiay ni o'zgartirganimzda UI da ham o'zgarish bo'ladi sababi o'zgartirilgandan keyin  qayta reneder bo'ladi va qayerga UI chizgan bo'lsak o'sha o'zgartirilgan qiymatni ya'ni yangi qiymtni  eski qymat o'rniga qo'yadi yva UI chizib beraci.
 }
 const deleteitem2 = (id)=>{
 setaddqiymat((addqiymat)=> addqiymat.filter((item)=> item.id !== id))
 }
-console.log(qiymat);
+
+
 console.log(addqiymat);
 const setitem = (id)=>{
 for(let i of qiymat){
